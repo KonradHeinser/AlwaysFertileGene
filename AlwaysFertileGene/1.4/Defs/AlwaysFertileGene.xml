@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="FertilityBase">
+        <defName>AlwaysFertile</defName>
+        <label>always fertile</label>
+        <description>While age will cause this pawn's fertility to lower, it will never become infertile due to age. The lowest age multiplier is 5%.</description>
+        <iconPath>UI/Icons/Genes/Gene_Fertile</iconPath>
+        <displayOrderInCategory>145</displayOrderInCategory>
+        <statOffsets>
+            <Fertility>0.05</Fertility>
+        </statOffsets>
+    </GeneDef>
+</Defs>
+
+
+<!--
+Stat curves that I wanted to edit, but couldn't due to how genes affect stats.
+
+    <parts>
+      <li Class="StatPart_FertilityByGenderAge">
+        <maleFertilityAgeFactor>
+          <points>
+            <li>(14, 0)</li>
+            <li>(18, 1)</li>
+            <li>(50, 1)</li>
+            <li>(90, 0)</li>
+          </points>
+        </maleFertilityAgeFactor>
+        <femaleFertilityAgeFactor>
+          <points>
+            <li>(14, 0)</li>
+            <li>(20, 1)</li>
+            <li>(28, 1)</li>
+            <li>(35, 0.5)</li>
+            <li>(40, 0.1)</li>
+            <li>(45, 0.02)</li>
+            <li>(50, 0)</li>
+          </points>
+        </femaleFertilityAgeFactor>
+      </li>
+      <li Class="StatPart_FertilityByHediffs"/>
+    </parts>
+
+-->
